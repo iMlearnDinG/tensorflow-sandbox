@@ -10,6 +10,9 @@ from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.models import Sequential
 
+# Files available at the following link
+# https://drive.google.com/drive/folders/18W4B_MBD6f4jsWIaPADnEnjxmwmAvh0-?usp=sharing
+
 data_20 = pd.read_csv('large_files/20data.csv')
 data_21 = pd.read_csv('large_files/21data.csv')
 data_22 = pd.read_csv('large_files/22data.csv')
